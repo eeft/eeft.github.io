@@ -7,6 +7,7 @@
     "start": "webpack-dev-server",
     "build": "webpack --mode production"
   },
+  "pre-commit": ["build"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eeft/eeft.github.io.git"
@@ -46,6 +47,7 @@
     "eslint-plugin-react": "^7.20.3",
     "file-loader": "^6.0.0",
     "html-webpack-plugin": "^3.2.0",
+    "pre-commit": "^1.2.2",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"

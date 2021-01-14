@@ -14,3 +14,6 @@ TODOS:
 - Add calculations relative to capacitor
 - Include basic interface for building a ship fitting
 - Include a more User Friendly interface for building a ship fitting
+
+
+Go To App: ![EVE Echoes Fitting Tool](/dist)
