@@ -7,6 +7,7 @@ TODOS:
 - Create a list of modules and include relevant information
 - Create a list of rigs and include relevant information
 - Create a list of player and include relevant information
+- Create a fitting profile
 - Add calculations relative to Powergrid
 - Add calculations relative to Locking time
 - Add calculations relative to resistances
@@ -14,6 +15,3 @@ TODOS:
 - Add calculations relative to capacitor
 - Include basic interface for building a ship fitting
 - Include a more User Friendly interface for building a ship fitting
-
-
-Go To App: ![EVE Echoes Fitting Tool](/dist)
