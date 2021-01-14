@@ -16,7 +16,6 @@ pids
 .vscode/
 
 # dist folder
-dist/
 bin/
 
 # SYSTEM folder

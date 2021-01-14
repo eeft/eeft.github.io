@@ -1,6 +1,5 @@
 (function(window) {
   
-  const 
   window = window || {};
   window.CONST = {
     DEFAULT_NAME = "Lorem ipsum",
