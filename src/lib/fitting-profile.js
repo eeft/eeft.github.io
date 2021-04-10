@@ -1,16 +1,17 @@
 
 export class FittingProfile {
-  constructor(){
-    this.playerProfile = null;
-    this.shipProfile = null;
+  constructor(high = 0, mid = 0, low = 0, cr = 0, er = 0){
 
-    this.high = [];
-    this.mid = [];
-    this.low = [];
+    this.high = high;
+    this.mid = mid;
+    this.low = low;
 
-    this.combatRigs = [];
-    this.engineeringRigs = [];
+    this.combatRigs = cr;
+    this.engineeringRigs = er;
   }
+}
+
+class tempClass {
 
   setPlayerProfile(profile){
     this.playerProfile = profile;
@@ -93,6 +94,5 @@ export class FittingProfile {
 
   importProfile(profile){
     this.importShipProfile(profile.ship);
-
   }
 }
